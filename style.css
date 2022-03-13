@@ -1,0 +1,80 @@
+@charset "utf-8";
+body{
+    background: gray;
+    margin: 0;
+    padding: 0;
+}
+#wrapper {
+    background: white;
+    width: 960px;
+    margin: 10px auto;
+    padding: 10px;
+    overflow: hidden;
+}
+#header {
+    background: turquoise;
+    height: 100px;
+    margin:  0 0 10px 0;
+}
+#nav {
+    height: 50px;
+    background: #333;
+    margin: 0 0 10px 0;
+}
+.menu {
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 15px;
+}
+h1 {
+    text-align: center;
+    padding: 25px;
+    margin: 0;
+}
+#main {
+    background: burlywood;
+    width: 700px;
+    padding: 5px;
+    float: left;
+    margin: 0 0 10px 0;
+}
+h2 {
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+}
+.luni {
+    float: left;
+    margin: 0;
+    padding: 5px;
+    border: 1.5px solid black;
+    text-align: center;
+}
+.orar {
+    margin: 0;
+    border: 1px solid black;
+    font-weight: bold;
+}
+.ora {
+    border: 0.5px solid black;
+    margin: 0;
+}
+#sidebar {
+    background: lightcoral;
+    width: 240px;
+    float: right;
+    margin-bottom: 10px;
+}
+#footer {
+    height: 50px;
+    background: #333;
+    clear: both;
+}
+.font {    
+    color: whitesmoke;
+    font-family: lucida handwriting, cursive;
+    text-align: center;
+    padding: 10px;
+}
